@@ -1,0 +1,35 @@
+<div class=".container-bts">
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Description</th>
+                <th>Handel</th>
+                <th>Handel</th>
+            </tr>
+        </thead>
+        <tbody>
+            <%  for(let chat of chats) {  %>
+            <tr>
+                <td><%= chat.name %></td>
+                <td><%= chat.email %></td>
+                <td><%= chat.description %></td>
+                <td><form action="/show/<%= chat.id %>/edit" method="get">
+                    <button class="custom-button">Edit</button>
+                </form>
+            </td>
+                <td>
+                <form action="/show/<%= chat.id %>?_method=DELETE" method="post">
+                    <button class="custom-button btn-tx">Delete</button>
+                </form>
+            </td>
+            </tr>
+            <% } %>
+            <!-- Add more rows as needed -->
+        </tbody>
+    </table>
+</div>
+
+
+

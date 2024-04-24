@@ -1,0 +1,19 @@
+<footer class="footer-main">
+    <div class="footer-container">
+    <h2 class="content">Contact Me</h2>
+    <form action="/show/<%= upchat.id  %>?_method=PUT" method="post">
+        <div class="footer-content">
+            <input type="name" placeholder="<%= upchat.name %>" name="name" autocomplete="off">
+        </div>
+        <div class="footer-content">
+            <input type="email" placeholder="<%= upchat.email %>" name="email" autocomplete="off">
+        </div>
+        <div class="footer-content">
+    <textarea name="description" id="name" cols="30" rows="10" placeholder="<%= upchat.description %>" autocomplete="off"></textarea>
+    </div>
+    <div class="footer-content">
+    <button class="btn-footer">Submit</button>
+    </div>
+</form>
+    </div>
+</footer>

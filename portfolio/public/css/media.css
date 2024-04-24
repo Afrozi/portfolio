@@ -1,0 +1,58 @@
+@media only screen and (max-width: 1200px) {
+    .order-list{
+        display: flex;
+        flex-direction: column;
+    }
+    .work{
+        font-size: 20px;
+    }
+    .header{
+        font-size: 30px;
+    }
+    .button{
+        width: 120px;
+        margin-bottom: 10px;
+    }
+     /* #btn-search{} */
+
+     .main-container{
+        display: flex;
+        flex-direction: column;
+      }
+      .div-card{
+        flex-wrap: wrap;
+      }
+      .div-card img{
+        height: 100px;
+        justify-content: center;
+        align-items: center;
+      }
+      .main-division{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+      .divide{
+        width: 100%;
+        flex-wrap: wrap;
+      }
+      .app-development{
+        flex-wrap: wrap;
+      }
+      .app-development img{
+         width: 80%;
+      }
+      .mobile-work{
+        display: flex;
+        flex-direction: column;
+      }
+      .button-div{
+        margin-left: 10%;
+      }
+      .footer-content .btn-footer{
+        font-size: 10px;
+        padding: 10px;
+        flex-wrap: wrap;
+      }
+  }
+  
